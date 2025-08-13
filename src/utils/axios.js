@@ -11,7 +11,7 @@ const apiInstance = axios.create({
 
 export const apiInstanceAuth = axios.create({
   baseURL,
-  timeout: 3000,
+  timeout: 6000,
 });
 
 apiInstanceAuth.interceptors.request.use((config) => {
